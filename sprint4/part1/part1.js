@@ -36,7 +36,6 @@ sayGoodbye('Lewindoski');
  * Sugerencia: Puedes crear otra función para convertir F a C.
  */
 
-
 function temperatureInC(tem, value) {
   const formTempFah = parseInt((tem - 32) * (5 / 9));
   const formTempCel = parseInt((tem * 1.8) + (32));
@@ -49,10 +48,6 @@ function temperatureInC(tem, value) {
 }
 temperatureInC(88, `F`);
 temperatureInC(88, `C`);
-
-//function temperatureInC(/* código aquí */) {
-/* código aquí */
-//}
 
 /**
  * ### Challenge makePersonObject

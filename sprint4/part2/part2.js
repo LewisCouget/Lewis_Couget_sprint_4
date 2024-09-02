@@ -1,9 +1,5 @@
-
-
 // Parte 2
 //  Array de objetos de ejemplo
-
-
 const characters = [
     {
         name: "Luke Skywalker",
@@ -35,11 +31,6 @@ const characters = [
     },
 ];
 
-
-// ej 1
-
-console.log(`El personbaje es ${characters[0].name}!`);
-
 /**
  * ### Challenge getCharacterNameByIndex
  *
@@ -52,7 +43,7 @@ console.log(`El personbaje es ${characters[0].name}!`);
  * Por ejemplo, si getCharacterNameByIndex se invoca con el inventario y el número 0. * devolverá
  * devolverá «El personaje es Luke Skywalker».
  */
-
+console.log(`El personbaje es ${characters[0].name}!`);
 /**
  * Filter
  * 1 Obtener caracteres con masa superior a 100
